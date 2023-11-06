@@ -1,0 +1,187 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[v F583 `(v ~T0 @X0 0 tf ]
+"1703 /opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 1703: extern volatile __bit T0CS __attribute__((address(0x40D)));
+[v _T0CS `Vb ~T0 @X0 0 e@1037 ]
+"1691
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 1691: extern volatile __bit PSA __attribute__((address(0x40B)));
+[v _PSA `Vb ~T0 @X0 0 e@1035 ]
+"54 /opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"74
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 74: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"94
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 94: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"114
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 114: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"200
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 200: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"220
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 220: __asm("GPIO equ 05h");
+[; <" GPIO equ 05h ;# ">
+"308
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 308: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"328
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 328: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"406
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 406: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"454
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 454: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"461
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 461: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"481
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 481: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"501
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 501: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"566
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 566: __asm("CMCON equ 019h");
+[; <" CMCON equ 019h ;# ">
+"625
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 625: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"645
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 645: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"729
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 729: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"799
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 799: __asm("TRISIO equ 085h");
+[; <" TRISIO equ 085h ;# ">
+"849
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 849: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"897
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 897: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"931
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 931: __asm("OSCCAL equ 090h");
+[; <" OSCCAL equ 090h ;# ">
+"991
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 991: __asm("WPU equ 095h");
+[; <" WPU equ 095h ;# ">
+"1036
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 1036: __asm("IOC equ 096h");
+[; <" IOC equ 096h ;# ">
+"1041
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 1041: __asm("IOCB equ 096h");
+[; <" IOCB equ 096h ;# ">
+"1210
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 1210: __asm("VRCON equ 099h");
+[; <" VRCON equ 099h ;# ">
+"1270
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 1270: __asm("EEDATA equ 09Ah");
+[; <" EEDATA equ 09Ah ;# ">
+"1275
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 1275: __asm("EEDAT equ 09Ah");
+[; <" EEDAT equ 09Ah ;# ">
+"1308
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 1308: __asm("EEADR equ 09Bh");
+[; <" EEADR equ 09Bh ;# ">
+"1328
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 1328: __asm("EECON1 equ 09Ch");
+[; <" EECON1 equ 09Ch ;# ">
+"1366
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 1366: __asm("EECON2 equ 09Dh");
+[; <" EECON2 equ 09Dh ;# ">
+"1386
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 1386: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"1406
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 1406: __asm("ANSEL equ 09Fh");
+[; <" ANSEL equ 09Fh ;# ">
+"9 ./fuses.h
+[p x FOSC  =  INTRCIO    ]
+"10
+[p x WDTE  =  OFF        ]
+"11
+[p x PWRTE  =  ON        ]
+"12
+[p x MCLRE  =  OFF       ]
+"13
+[p x BOREN  =  ON        ]
+"14
+[p x CP  =  OFF          ]
+"15
+[p x CPD  =  OFF         ]
+[v F582 `*F583 ~T0 @X0 -> 2 `i t ]
+[v F581 `F582 ~T0 @X0 -> 2 `i t ]
+"17 ./coil_control.h
+[; ;./coil_control.h: 17: void (*func_ptr[2][2][2])(void);
+[v _func_ptr `F581 ~T0 @X0 -> 2 `i e ]
+"8 ./tmr1_module.h
+[; ;./tmr1_module.h: 8: int OF_num_TMR1 = 00;
+[v _OF_num_TMR1 `i ~T0 @X0 1 e ]
+[i _OF_num_TMR1
+-> 0 `i
+]
+"9
+[; ;./tmr1_module.h: 9: int target_OF_num = 1;
+[v _target_OF_num `i ~T0 @X0 1 e ]
+[i _target_OF_num
+-> 1 `i
+]
+"10
+[; ;./tmr1_module.h: 10: int current_position;
+[v _current_position `i ~T0 @X0 1 e ]
+"12
+[; ;./tmr1_module.h: 12: uint8_t CW_CCW_select = 0;
+[v _CW_CCW_select `uc ~T0 @X0 1 e ]
+[i _CW_CCW_select
+-> -> 0 `i `uc
+]
+"13
+[; ;./tmr1_module.h: 13: _Bool pair_select = 0;
+[v _pair_select `a ~T0 @X0 1 e ]
+[i _pair_select
+-> -> 0 `i `a
+]
+"14
+[; ;./tmr1_module.h: 14: _Bool set_clear_sequence = 0;
+[v _set_clear_sequence `a ~T0 @X0 1 e ]
+[i _set_clear_sequence
+-> -> 0 `i `a
+]
+"15
+[; ;./tmr1_module.h: 15: _Bool tmp_set_clear_sequence = 0;
+[v _tmp_set_clear_sequence `a ~T0 @X0 1 e ]
+[i _tmp_set_clear_sequence
+-> -> 0 `i `a
+]
+"20
+[; ;./tmr1_module.h: 20: int num_steps[2] = {570, 780};
+[v _num_steps `i ~T0 @X0 -> 2 `i e ]
+[i _num_steps
+:U ..
+-> 570 `i
+-> 780 `i
+..
+]
+"5 tmr0_module.c
+[; ;tmr0_module.c: 5: void TMR0_init() {
+[v _TMR0_init `(v ~T0 @X0 1 ef ]
+{
+[e :U _TMR0_init ]
+[f ]
+"6
+[; ;tmr0_module.c: 6:     T0CS = 0;
+[e = _T0CS -> -> 0 `i `b ]
+"7
+[; ;tmr0_module.c: 7:     PSA = 1;
+[e = _PSA -> -> 1 `i `b ]
+"10
+[; ;tmr0_module.c: 10: }
+[e :UE 81 ]
+}

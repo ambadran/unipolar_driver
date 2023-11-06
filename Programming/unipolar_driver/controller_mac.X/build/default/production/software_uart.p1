@@ -1,0 +1,489 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[v F583 `(v ~T0 @X0 0 tf ]
+"1766 /opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 1766: extern volatile __bit TRISIO5 __attribute__((address(0x42D)));
+[v _TRISIO5 `Vb ~T0 @X0 0 e@1069 ]
+"1628
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 1628: extern volatile __bit GPIO5 __attribute__((address(0x2D)));
+[v _GPIO5 `Vb ~T0 @X0 0 e@45 ]
+[v F36 `(v ~T0 @X0 1 tf1`ul ]
+"12 /opt/microchip/xc8/v2.41/pic/include/builtins.h
+[v __delay `JF36 ~T0 @X0 0 e ]
+[p i __delay ]
+"54 /opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"74
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 74: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"94
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 94: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"114
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 114: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"200
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 200: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"220
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 220: __asm("GPIO equ 05h");
+[; <" GPIO equ 05h ;# ">
+"308
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 308: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"328
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 328: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"406
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 406: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"454
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 454: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"461
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 461: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"481
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 481: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"501
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 501: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"566
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 566: __asm("CMCON equ 019h");
+[; <" CMCON equ 019h ;# ">
+"625
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 625: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"645
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 645: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"729
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 729: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"799
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 799: __asm("TRISIO equ 085h");
+[; <" TRISIO equ 085h ;# ">
+"849
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 849: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"897
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 897: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"931
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 931: __asm("OSCCAL equ 090h");
+[; <" OSCCAL equ 090h ;# ">
+"991
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 991: __asm("WPU equ 095h");
+[; <" WPU equ 095h ;# ">
+"1036
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 1036: __asm("IOC equ 096h");
+[; <" IOC equ 096h ;# ">
+"1041
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 1041: __asm("IOCB equ 096h");
+[; <" IOCB equ 096h ;# ">
+"1210
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 1210: __asm("VRCON equ 099h");
+[; <" VRCON equ 099h ;# ">
+"1270
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 1270: __asm("EEDATA equ 09Ah");
+[; <" EEDATA equ 09Ah ;# ">
+"1275
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 1275: __asm("EEDAT equ 09Ah");
+[; <" EEDAT equ 09Ah ;# ">
+"1308
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 1308: __asm("EEADR equ 09Bh");
+[; <" EEADR equ 09Bh ;# ">
+"1328
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 1328: __asm("EECON1 equ 09Ch");
+[; <" EECON1 equ 09Ch ;# ">
+"1366
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 1366: __asm("EECON2 equ 09Dh");
+[; <" EECON2 equ 09Dh ;# ">
+"1386
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 1386: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"1406
+[; ;/opt/microchip/xc8/v2.41/pic/include/proc/pic12f675.h: 1406: __asm("ANSEL equ 09Fh");
+[; <" ANSEL equ 09Fh ;# ">
+"9 ./fuses.h
+[p x FOSC  =  INTRCIO    ]
+"10
+[p x WDTE  =  OFF        ]
+"11
+[p x PWRTE  =  ON        ]
+"12
+[p x MCLRE  =  OFF       ]
+"13
+[p x BOREN  =  ON        ]
+"14
+[p x CP  =  OFF          ]
+"15
+[p x CPD  =  OFF         ]
+[v F582 `*F583 ~T0 @X0 -> 2 `i t ]
+[v F581 `F582 ~T0 @X0 -> 2 `i t ]
+"17 ./coil_control.h
+[; ;./coil_control.h: 17: void (*func_ptr[2][2][2])(void);
+[v _func_ptr `F581 ~T0 @X0 -> 2 `i e ]
+"8 ./tmr1_module.h
+[; ;./tmr1_module.h: 8: int OF_num_TMR1 = 00;
+[v _OF_num_TMR1 `i ~T0 @X0 1 e ]
+[i _OF_num_TMR1
+-> 0 `i
+]
+"9
+[; ;./tmr1_module.h: 9: int target_OF_num = 1;
+[v _target_OF_num `i ~T0 @X0 1 e ]
+[i _target_OF_num
+-> 1 `i
+]
+"10
+[; ;./tmr1_module.h: 10: int current_position;
+[v _current_position `i ~T0 @X0 1 e ]
+"12
+[; ;./tmr1_module.h: 12: uint8_t CW_CCW_select = 0;
+[v _CW_CCW_select `uc ~T0 @X0 1 e ]
+[i _CW_CCW_select
+-> -> 0 `i `uc
+]
+"13
+[; ;./tmr1_module.h: 13: _Bool pair_select = 0;
+[v _pair_select `a ~T0 @X0 1 e ]
+[i _pair_select
+-> -> 0 `i `a
+]
+"14
+[; ;./tmr1_module.h: 14: _Bool set_clear_sequence = 0;
+[v _set_clear_sequence `a ~T0 @X0 1 e ]
+[i _set_clear_sequence
+-> -> 0 `i `a
+]
+"15
+[; ;./tmr1_module.h: 15: _Bool tmp_set_clear_sequence = 0;
+[v _tmp_set_clear_sequence `a ~T0 @X0 1 e ]
+[i _tmp_set_clear_sequence
+-> -> 0 `i `a
+]
+"20
+[; ;./tmr1_module.h: 20: int num_steps[2] = {570, 780};
+[v _num_steps `i ~T0 @X0 -> 2 `i e ]
+[i _num_steps
+:U ..
+-> 570 `i
+-> 780 `i
+..
+]
+"7 software_uart.c
+[; ;software_uart.c: 7: uint8_t intToASCII(uint8_t num) {
+[v _intToASCII `(uc ~T0 @X0 1 ef1`uc ]
+{
+[e :U _intToASCII ]
+[v _num `uc ~T0 @X0 1 r1 ]
+[f ]
+"8
+[; ;software_uart.c: 8:     return '0' + num;
+[e ) -> + -> 48 `ui -> _num `ui `uc ]
+[e $UE 81  ]
+"9
+[; ;software_uart.c: 9: }
+[e :UE 81 ]
+}
+"11
+[; ;software_uart.c: 11: void soft_uart_init() {
+[v _soft_uart_init `(v ~T0 @X0 1 ef ]
+{
+[e :U _soft_uart_init ]
+[f ]
+"14
+[; ;software_uart.c: 14:     TRISIO5 = 0;
+[e = _TRISIO5 -> -> 0 `i `b ]
+"15
+[; ;software_uart.c: 15:     GPIO5 = 1;
+[e = _GPIO5 -> -> 1 `i `b ]
+"17
+[; ;software_uart.c: 17: }
+[e :UE 82 ]
+}
+"19
+[; ;software_uart.c: 19: void soft_uart_send_uint8_t(uint8_t value) {
+[v _soft_uart_send_uint8_t `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _soft_uart_send_uint8_t ]
+[v _value `uc ~T0 @X0 1 r1 ]
+[f ]
+"22
+[; ;software_uart.c: 22:     GPIO5 = 0;
+[e = _GPIO5 -> -> 0 `i `b ]
+"23
+[; ;software_uart.c: 23:     _delay((unsigned long)((905)*(4000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 905 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"26
+[; ;software_uart.c: 26:     for(uint8_t i=0; i<8; i++) {
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 8 `i 84  ]
+[e $U 85  ]
+[e :U 84 ]
+{
+"28
+[; ;software_uart.c: 28:         GPIO5 = (value>>i) & 0b1;
+[e = _GPIO5 -> & >> -> _value `i -> _i `i -> 1 `i `b ]
+"30
+[; ;software_uart.c: 30:         _delay((unsigned long)((905)*(4000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 905 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"31
+[; ;software_uart.c: 31:     }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 8 `i 84  ]
+[e :U 85 ]
+}
+"34
+[; ;software_uart.c: 34:     GPIO5 = 1;
+[e = _GPIO5 -> -> 1 `i `b ]
+"35
+[; ;software_uart.c: 35:     _delay((unsigned long)((905)*(4000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 905 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"36
+[; ;software_uart.c: 36:     _delay((unsigned long)((905)*(4000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 905 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"38
+[; ;software_uart.c: 38: }
+[e :UE 83 ]
+}
+"40
+[; ;software_uart.c: 40: unsigned divu10(unsigned n) {
+[v _divu10 `(ui ~T0 @X0 1 ef1`ui ]
+{
+[e :U _divu10 ]
+[v _n `ui ~T0 @X0 1 r1 ]
+[f ]
+"41
+[; ;software_uart.c: 41:     unsigned q, r;
+[v _q `ui ~T0 @X0 1 a ]
+[v _r `ui ~T0 @X0 1 a ]
+"42
+[; ;software_uart.c: 42:     q = (n >> 1) + (n >> 2);
+[e = _q + >> _n -> 1 `i >> _n -> 2 `i ]
+"43
+[; ;software_uart.c: 43:     q = q + (q >> 4);
+[e = _q + _q >> _q -> 4 `i ]
+"44
+[; ;software_uart.c: 44:     q = q + (q >> 8);
+[e = _q + _q >> _q -> 8 `i ]
+"46
+[; ;software_uart.c: 46:     q = q >> 3;
+[e = _q >> _q -> 3 `i ]
+"47
+[; ;software_uart.c: 47:     r = n - (((q << 2) + q) << 1);
+[e = _r - _n << + << _q -> 2 `i _q -> 1 `i ]
+"48
+[; ;software_uart.c: 48:     return q + (r > 9);
+[e ) + _q -> -> > _r -> -> 9 `i `ui `i `ui ]
+[e $UE 87  ]
+"49
+[; ;software_uart.c: 49: }
+[e :UE 87 ]
+}
+"51
+[; ;software_uart.c: 51: void soft_uart_send_int_AS_IS(int value) {
+[v _soft_uart_send_int_AS_IS `(v ~T0 @X0 1 ef1`i ]
+{
+[e :U _soft_uart_send_int_AS_IS ]
+[v _value `i ~T0 @X0 1 r1 ]
+[f ]
+"53
+[; ;software_uart.c: 53:     GPIO5 = 0;
+[e = _GPIO5 -> -> 0 `i `b ]
+"54
+[; ;software_uart.c: 54:     _delay((unsigned long)((905)*(4000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 905 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"57
+[; ;software_uart.c: 57:     uint8_t i;
+[v _i `uc ~T0 @X0 1 a ]
+"58
+[; ;software_uart.c: 58:     for(i=8; i<16; i++) {
+{
+[e = _i -> -> 8 `i `uc ]
+[e $ < -> _i `i -> 16 `i 89  ]
+[e $U 90  ]
+[e :U 89 ]
+{
+"60
+[; ;software_uart.c: 60:         GPIO5 = (value>>i) & 0b1;
+[e = _GPIO5 -> & >> _value -> _i `i -> 1 `i `b ]
+"62
+[; ;software_uart.c: 62:         _delay((unsigned long)((905)*(4000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 905 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"63
+[; ;software_uart.c: 63:     }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 16 `i 89  ]
+[e :U 90 ]
+}
+"66
+[; ;software_uart.c: 66:     GPIO5 = 1;
+[e = _GPIO5 -> -> 1 `i `b ]
+"67
+[; ;software_uart.c: 67:     _delay((unsigned long)((905)*(4000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 905 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"68
+[; ;software_uart.c: 68:     _delay((unsigned long)((905)*(4000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 905 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"71
+[; ;software_uart.c: 71:     GPIO5 = 0;
+[e = _GPIO5 -> -> 0 `i `b ]
+"72
+[; ;software_uart.c: 72:     _delay((unsigned long)((905)*(4000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 905 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"75
+[; ;software_uart.c: 75:     for(i=0; i<8; i++) {
+{
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 8 `i 92  ]
+[e $U 93  ]
+[e :U 92 ]
+{
+"77
+[; ;software_uart.c: 77:         GPIO5 = (value>>i) & 0b1;
+[e = _GPIO5 -> & >> _value -> _i `i -> 1 `i `b ]
+"79
+[; ;software_uart.c: 79:         _delay((unsigned long)((905)*(4000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 905 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"80
+[; ;software_uart.c: 80:     }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 8 `i 92  ]
+[e :U 93 ]
+}
+"83
+[; ;software_uart.c: 83:     GPIO5 = 1;
+[e = _GPIO5 -> -> 1 `i `b ]
+"84
+[; ;software_uart.c: 84:     _delay((unsigned long)((905)*(4000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 905 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"85
+[; ;software_uart.c: 85:     _delay((unsigned long)((905)*(4000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 905 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"86
+[; ;software_uart.c: 86: }
+[e :UE 88 ]
+}
+"88
+[; ;software_uart.c: 88: void soft_uart_send_int(int value){
+[v _soft_uart_send_int `(v ~T0 @X0 1 ef1`i ]
+{
+[e :U _soft_uart_send_int ]
+[v _value `i ~T0 @X0 1 r1 ]
+[f ]
+"92
+[; ;software_uart.c: 92:     uint8_t third_digit = intToASCII(value%10);
+[v _third_digit `uc ~T0 @X0 1 a ]
+[e = _third_digit ( _intToASCII (1 -> % _value -> 10 `i `uc ]
+"93
+[; ;software_uart.c: 93:     value = divu10(value);
+[e = _value -> ( _divu10 (1 -> _value `ui `i ]
+"94
+[; ;software_uart.c: 94:     uint8_t second_digit = intToASCII(value%10);
+[v _second_digit `uc ~T0 @X0 1 a ]
+[e = _second_digit ( _intToASCII (1 -> % _value -> 10 `i `uc ]
+"95
+[; ;software_uart.c: 95:     value = divu10(value);
+[e = _value -> ( _divu10 (1 -> _value `ui `i ]
+"96
+[; ;software_uart.c: 96:     uint8_t first_digit = intToASCII(value%10);
+[v _first_digit `uc ~T0 @X0 1 a ]
+[e = _first_digit ( _intToASCII (1 -> % _value -> 10 `i `uc ]
+"98
+[; ;software_uart.c: 98:     soft_uart_send_uint8_t(first_digit);
+[e ( _soft_uart_send_uint8_t (1 _first_digit ]
+"99
+[; ;software_uart.c: 99:     soft_uart_send_uint8_t(second_digit);
+[e ( _soft_uart_send_uint8_t (1 _second_digit ]
+"100
+[; ;software_uart.c: 100:     soft_uart_send_uint8_t(third_digit);
+[e ( _soft_uart_send_uint8_t (1 _third_digit ]
+"102
+[; ;software_uart.c: 102: }
+[e :UE 95 ]
+}
+"104
+[; ;software_uart.c: 104: void soft_uart_send_string(char* string) {
+[v _soft_uart_send_string `(v ~T0 @X0 1 ef1`*uc ]
+{
+[e :U _soft_uart_send_string ]
+[v _string `*uc ~T0 @X0 1 r1 ]
+[f ]
+"106
+[; ;software_uart.c: 106:     uint8_t i = 0;
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+"107
+[; ;software_uart.c: 107:     while (string[i] != '\0') {
+[e $U 97  ]
+[e :U 98 ]
+{
+"109
+[; ;software_uart.c: 109:         soft_uart_send_uint8_t((uint8_t)string[i]);
+[e ( _soft_uart_send_uint8_t (1 -> *U + _string * -> _i `ux -> -> # *U _string `ui `ux `uc ]
+"110
+[; ;software_uart.c: 110:         i++;
+[e ++ _i -> -> 1 `i `uc ]
+"111
+[; ;software_uart.c: 111:     }
+}
+[e :U 97 ]
+"107
+[; ;software_uart.c: 107:     while (string[i] != '\0') {
+[e $ != -> *U + _string * -> _i `ux -> -> # *U _string `ui `ux `ui -> 0 `ui 98  ]
+[e :U 99 ]
+"112
+[; ;software_uart.c: 112: }
+[e :UE 96 ]
+}
+"114
+[; ;software_uart.c: 114: void soft_uart_send_ALL() {
+[v _soft_uart_send_ALL `(v ~T0 @X0 1 ef ]
+{
+[e :U _soft_uart_send_ALL ]
+[f ]
+"120
+[; ;software_uart.c: 120:     soft_uart_send_string("OF_num_TMR1: ");
+[e ( _soft_uart_send_string (1 :s 1C ]
+"121
+[; ;software_uart.c: 121:     soft_uart_send_int(OF_num_TMR1);
+[e ( _soft_uart_send_int (1 _OF_num_TMR1 ]
+"122
+[; ;software_uart.c: 122:     soft_uart_send_string("\n");
+[e ( _soft_uart_send_string (1 :s 2C ]
+"124
+[; ;software_uart.c: 124:     soft_uart_send_string("target_OF_num: ");
+[e ( _soft_uart_send_string (1 :s 3C ]
+"125
+[; ;software_uart.c: 125:     soft_uart_send_int(target_OF_num);
+[e ( _soft_uart_send_int (1 _target_OF_num ]
+"126
+[; ;software_uart.c: 126:     soft_uart_send_string("\n");
+[e ( _soft_uart_send_string (1 :s 4C ]
+"128
+[; ;software_uart.c: 128:     soft_uart_send_string("current_position: ");
+[e ( _soft_uart_send_string (1 :s 5C ]
+"129
+[; ;software_uart.c: 129:     soft_uart_send_int(current_position);
+[e ( _soft_uart_send_int (1 _current_position ]
+"130
+[; ;software_uart.c: 130:     soft_uart_send_string("\n");
+[e ( _soft_uart_send_string (1 :s 6C ]
+"132
+[; ;software_uart.c: 132: }
+[e :UE 100 ]
+}
+[a 5C 99 117 114 114 101 110 116 95 112 111 115 105 116 105 111 110 58 32 0 ]
+[a 3C 116 97 114 103 101 116 95 79 70 95 110 117 109 58 32 0 ]
+[a 1C 79 70 95 110 117 109 95 84 77 82 49 58 32 0 ]
+[a 2C 10 0 ]
+[a 4C 10 0 ]
+[a 6C 10 0 ]
